@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="restro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Restaurant Website</title>
+</head>
+<body>
+    <!-- <div class="container"> -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+        <input type="checkbox">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#food">Category</a></li>
+            <li><a href="#food-menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h1 class="logo">FW</h1>
+    </div>
+    </nav>
+
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container container">
+            <h1 class="main-title">Eat Right Food</h1>
+            <p>Eat Healthy, Live Healthy</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Hungry?<br>Try Us!</h2>
+                <p>“One cannot think well, love well, sleep well, if one has not dined well.”</p>
+            </div>
+            <div class="about-img">
+                <img src="./about-photo.jpg" alt="about us">
+            </div>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Types of Food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="./food1.jpg">
+                    <div class="img-content">
+                        <h3>Fruit</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="./food2.jpg">
+                    <div class="img-content">
+                        <h3>Vegetables</h3>
+                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grain">
+                <div class="img-container">
+                    <img src="./food3.jpg">
+                    <div class="img-content">
+                        <h3>Grains</h3>
+                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="food-menu">
+     <h2 class ="food-menu-heading">
+         Food Menu
+     </h2>
+     <div class="food-menu-container container">
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="pizza.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Pizza</h2>
+                <p>a flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc.</p>
+                <p class="food-price">Price: &#8377; 250</p>
+            </div>
+        </div>
+
+         <div class="food-menu-item">
+             <div class="food-image">
+                 <img src="buurger.jpg">
+             </div>
+             <div class="food-description">
+                 <h2 class="food-title">Burger</h2>
+                 <p>A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled. A hamburger topped with cheese is called a cheeseburger.</p>
+                 <p class="food-price">Price: &#8377; 110</p>
+             </div>
+         </div>
+
+         <div class="food-menu-item">
+            <div class="food-image">
+                <img src="Noodles.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Noodles</h2>
+                <p>Noodles are a type of food made from unleavened dough which is rolled flat and cut, stretched or extruded, into long strips or strings.Noodles are usually cooked in boiling water, sometimes with cooking oil or salt added.</p>
+                <p class="food-price">Price: &#8377; 300</p>
+            </div>
+        </div>
+        
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="cheese-garlic.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Garlic Bread</h2>
+                <p>Garlic bread with fresh mozzarella cheese, tomatoes, basil, and a drizzle of balsamic! The best garlic bread you will ever eat!</p>
+                <p class="food-price">Price: &#8377; 175</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="lasagne2.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Lasagne</h2>
+                <p>Lasagne, or the singular lasagna, is an Italian dish made of stacked layers of thin flat pasta alternating with fillings such as ragù (ground meats and tomato sauce) and other vegetables, cheese (which may include ricotta and parmesan), and seasonings and spices such as garlic, oregano and basil.</p>
+                <p class="food-price">Price: &#8377; 400</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="fries.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Fries</h2>
+                <p>Though tastes and preferences differ, the perfect French fry generally has a crunchy exterior and a light, fluffy interior. Finding the right balance is tricky, though, as making French fries that are too crispy will result in a tough exterior that goes beyond crispiness.</p>
+                <p class="food-price">Price: &#8377; 120</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="White-Sauce-Pasta.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Alfredo Pasta</h2>
+                <p>White sauce pasta is simply cooked pasta mixed with a silky smooth & decadent white sauce made of milk, butter and flour. White sauce also known as Bechamel sauce has its origin from the Italian & French Cuisines. Advertisement. In classic culinary terms, this is what is known as a mother sauce.</p>
+                <p class="food-price">Price: &#8377; 200</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="pav.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Pav Bhaji</h2>
+                <p>Pav bhaji has many variations in ingredients and garnishes, but is essentially a spiced mixture of mashed vegetables in a thick gravy, usually cooked on a flat griddle (tava) and served hot with a soft white bread roll. Variations on pav bhaji include: Cheese pav bhaji, with cheese on top of the bhaji.</p>
+                <p class="food-price">Price: &#8377; 150</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="waffle.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Waffle</h2>
+                <p>A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression.Waffles are eaten throughout the world, particularly in Belgium, which has over a dozen regional varieties.</p>
+                <p class="food-price">Price: &#8377; 120</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="beer2.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Beer</h2>
+                <p>Beer is one of the oldest and most widely consumed alcoholic drinks in the world, and the third.The name "porter" was first used in 1721 to describe a dark brown beer popular with the street and river porters of London. </p>
+                <p class="food-price">Price: &#8377; 550</p>
+            </div>
+        </div>
+
+        <div class="food-menu-item">
+            <div class="food-image">
+                <img src="brownie.jpg">
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Brownie</h2>
+                <p>A chocolate brownie or simply a brownie is a square or rectangular chocolate baked confection. Brownies come in a variety of forms and may be either fudgy or cakey, depending on their density. They may include nuts, frosting, cream cheese, chocolate chips, or other ingredients.</p>
+                <p class="food-price">Price: &#8377; 250</p>
+            </div>
+        </div>
+
+     </div>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="testimonial-title">What our Customer Say</h2>
+       <div class="testimonial-container container">
+           <div class="testimonial-box">
+             <div class="star-rating">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+             </div>
+
+             <p class="testimonial-text">"Cozy Vibe"<br>I had breakfast there this morning and dinner tonight. All were well beyond my expectations. Everything is so fresh. Best clam chowder I have ever had. Clams and linguine were out of this world. Breakfast will knock your slippers off.</p>
+             <div class="customer-detail">
+                 <div class="customer-photo">
+                     <img src="damon.jpg" alt="male">
+                 </div>
+                 <p class="customer-name">Damon Salvatore</p>
+             </div>
+           </div>
+
+           <div class="testimonial-box">
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            
+            <p class="testimonial-text">"Fine Dine Resto"<br>The food is excellent,generous portions and great prices.The service was fast and friendly.I highly recommended this restro.<br></p>
+            <div class="customer-detail">
+                <div class="customer-photo">
+                    <img src="elena.jpg" alt="male">
+                </div>
+                <p class="customer-name">Elena Gilbert Salvatore</p>
+            </div>
+          </div>
+
+          <div class="testimonial-box">
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            
+            <p class="testimonial-text">“Nice Menu and Very Tasty”<br>Group of six of us for a late dinner. Plenty of menu options and service was very good. Food was delicious and we were happy to have leftovers to take home. </p>
+            <div class="customer-detail">
+                <div class="customer-photo">
+                    <img src="stefan.jpg" alt="male">
+                </div>
+                <p class="customer-name">Stefan Salvatore</p>
+            </div>
+          </div>
+
+       </div>
+    </section>
+    
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="restraunt-image.jpg" alt="restro">
+            </div>
+            <div class="form-container">
+        <h2>Contact Us</h2>
+    <input type="text" name="" id="" placeholder="Enter Name">
+    <input type="email" placeholder="Enter e-mail">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
+    <a href="" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+
+   <footer id="footer">
+       <h2>Restaurant Website &copy; all rights reserved</h2>
+   </footer>
+ 
+   <!-- ############## smooth scrolling ############## -->
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script>
+   $(document).ready(function(){
+     // Add smooth scrolling to all links
+     $("a").on('click', function(event) {
+   
+       // Make sure this.hash has a value before overriding default behavior
+       if (this.hash !== "") {
+         // Prevent default anchor click behavior
+         event.preventDefault();
+   
+         // Store hash
+         var hash = this.hash;
+   
+         // Using jQuery's animate() method to add smooth page scroll
+         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+         $('html, body').animate({
+           scrollTop: $(hash).offset().top
+         }, 800, function(){
+   
+           // Add hash (#) to URL when done scrolling (default click behavior)
+           window.location.hash = hash;
+         });
+       } // End if
+     });
+   });
+   </script>
+
+
+    <!-- </div> -->
+</body>
+</html>
